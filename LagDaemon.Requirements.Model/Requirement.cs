@@ -11,6 +11,7 @@ namespace LagDaemon.Requirements.Model
         public string Identity { get; set; }
         public string Name { get; set; }
         public string Text { get; set; }
+        public DateTime Created { get; set; }
 
     }
 }
